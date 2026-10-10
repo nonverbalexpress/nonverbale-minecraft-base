@@ -1,0 +1,24 @@
+
+.nv-collection-card .nv-clean-icon{display:grid;place-items:center;width:100px;height:92px;font-size:44px;line-height:1;border:1px solid #46516a;border-radius:16px;background:linear-gradient(150deg,#30384f,#1f2639);margin:auto auto 3px}
+.nv-named-card .nv-clean-pet-icon{flex:none;width:68px;height:68px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(150deg,#3b3955,#233d48);font-size:35px}
+.nv-named-card a,.nv-source-link,.nv-thumb-credit,.nv-image-credits-footer{display:none!important}
+.nv-featured-photos{display:flex;flex-direction:column;gap:16px;min-width:0}
+.nv-featured-photos .nv-hero-photo{width:100%;margin:0}
+.nv-secondary-photo{border:1px solid #48536c;border-radius:17px;overflow:hidden;margin:0;background:#161e2b}
+.nv-secondary-photo img{display:block;width:100%;height:auto;max-height:350px;object-fit:cover}
+.nv-secondary-photo figcaption{font-size:11px;color:#cbd8e4;padding:12px 16px;background:#121b28}
+.nv-plans-grid{display:grid;grid-template-columns:1fr minmax(230px,300px);gap:22px;align-items:start}
+.nv-map-img{width:100%;max-width:680px;display:block;margin:auto;border-radius:14px;border:1px solid #48536d;background:#141d2b}
+.nv-plan-btn{display:block;width:100%;text-align:left;border:1px solid #4b546b;padding:14px 16px;border-radius:12px;background:#222a3c;color:#e5e8ee;margin-bottom:10px;cursor:pointer;font-weight:700}
+.nv-plan-btn[aria-pressed="true"]{border-color:#f2c28d;background:#3b3341;color:#fff3df}
+.nv-plan-btn small{display:block;color:#bdc8d6;font-weight:400;font-size:11px;margin-top:5px}
+.nv-plan-note{font-size:12px;color:#9faec2;line-height:1.6}
+.nv-plan-legend{display:flex;gap:10px 15px;flex-wrap:wrap;margin-top:15px}
+.nv-plan-legend span{font-size:11px;color:#c8d2df;display:inline-flex;align-items:center;gap:6px}
+.nv-plan-legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+.nv-travel-grid{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+.nv-travel-chip{padding:9px 13px;border:1px solid #546077;border-radius:999px;color:#e5dee8;background:#252e41;font-size:12px;font-weight:650}
+.nv-mishap{display:grid;grid-template-columns:76px 1fr;gap:18px;border:1px solid #745d7b;background:linear-gradient(130deg,#342b43,#1c2c3b);padding:20px;border-radius:16px}
+.nv-mishap-icon{font-size:48px;display:grid;place-items:center;width:65px;height:65px;border-radius:16px;background:#232436}
+.nv-mishap h3{color:#ffe1bb;margin:0 0 7px;font-size:19px}.nv-mishap p{color:#d6dce7;font-size:13px;line-height:1.65;margin:0}
+@media(max-width:900px){.nv-plans-grid{grid-template-columns:1fr}.nv-mishap{grid-template-columns:1fr}}
